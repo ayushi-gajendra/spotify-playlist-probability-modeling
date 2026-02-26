@@ -46,13 +46,22 @@ To simulate a real-world scenario, I modeled a group of **10 independent tracks*
 
 ## 📊 Statistical Findings
 
-### The Probability Table (Sample of 10 Tracks)
-| # Major Tracks | Probability (PMF) | Cumulative Prob (CDF) | Interpretation |
+### Probability & Cumulative Distribution Table (Sample of 10 Tracks)
+| # Major Tracks | Probability (PMF) | Cumulative Prob (CDF) | Strategic Interpretation |
 | :--- | :--- | :--- | :--- |
-| **0** | 0.0001 | 0.0001 | 0.01% chance of an all-minor playlist. |
-| **5** | 0.2108 | 0.3989 | ~40% chance of having 5 or fewer major tracks. |
-| **6** | **0.2500** | 0.6489 | **Most Likely Outcome:** 1 in 4 sets will have 6 major tracks. |
-| **10** | 0.0049 | 1.0000 | 0.4% chance of an all-major playlist. |
+| **0** | 0.00014 | 0.00014 | 0.01% chance of an all-minor playlist. |
+| **1** | 0.00204 | 0.00218 | Negligible probability for highly skewed sets. |
+| **2** | 0.01306 | 0.01524 | Risk of a 20% major playlist is only ~1.5%. |
+| **3** | 0.04955 | 0.06479 | Baseline for "diverse" mood sets. |
+| **4** | 0.12341 | 0.18820 | ~40% chance of having 5 or fewer major tracks. |
+| **5** | 0.21078 | 0.39897 | Near equal split of mood is a 21% occurrence. |
+| **6** | **0.24999** | **0.64896** | **Most Likely Outcome:** 1 in 4 sets will have 6 major tracks.  |
+| **7** | 0.20332 | 0.85228 | 85% probability of having at most 7 major tracks. |
+| **8** | 0.10851 | 0.96079 | Highly favorable toward major modality. |
+| **9** | 0.03432 | 0.99512 | Extreme major skew (90%) is a ~3% chance. |
+| **10** | 0.00488 | 1.00000 | 0.4% chance of a perfectly uniform major playlist. |
+
+
 
 <p align="center">
   <img src="PMF for Number of Major tracks in a List of 10.png" width="45%" />
@@ -104,7 +113,6 @@ I examined the **Probability Mass Function (PMF)** for outcomes 0 through 10.
 Finally, I calculated the **Cumulative Distribution Function (CDF)**.
 * **The Logic:** In operations, we rarely ask "What is the chance of exactly 4?" We ask "What is the chance of **at most** 4?" 
 * **The Strategic "Why":** The CDF is a "Running Total" of probability. It showed that there is a **~40% chance** of having 5 or fewer Major tracks, helping a curator manage the emotional "weight" of a set.
-
 
 ---
 
