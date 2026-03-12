@@ -76,8 +76,8 @@ To simulate a real-world scenario, I modeled a group of **10 independent tracks*
 
 
 <p align="center">
-  <img src="PMF for Number of Major tracks in a List of 10.png" width="45%" />
-  <img src="CDF for Number of Major Tracks in a List of 10.png" width="45%" />
+  <img src="PMF for Number of Major tracks in a List of 10.png" width="60%" />
+  <img src="CDF for Number of Major Tracks in a List of 10.png" width="60%" />
 </p>
 
 ---
